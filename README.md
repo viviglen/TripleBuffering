@@ -8,6 +8,7 @@ test code for http://remis-thoughts.blogspot.com/2012/01/triple-buffering-as-con
 This technique is also applicable as a small-scale lock-free concurrency mechanism; many applications consume real-time data but want to operate on fixed snapshots, or alternatively the data-processing operation performed takes longer than the time between each new piece of input data (and missing input data is acceptable). ”
 
 ============== result ==============
+```shell
 64,3
 74,3
 75,3
@@ -19,3 +20,4 @@ This technique is also applicable as a small-scale lock-free concurrency mechani
 88,6
 90,8
 92,8
+```
